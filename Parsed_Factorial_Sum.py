@@ -1,4 +1,3 @@
-# from math import factorial 
 import numpy
 
 def get_parsed_sum(i_fac):
