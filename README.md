@@ -10,6 +10,6 @@ docker run --rm -it factorial-digits
 50
 216
 docker run --rm -it factorial-digits
-100                                                                                       orial-digits
+100
 648
 ```
