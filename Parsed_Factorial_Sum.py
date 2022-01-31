@@ -7,14 +7,14 @@ def get_parsed_sum(i_fac):
     while i_fac: #loops until no more digits in number ie ifac=0
         i_output +=i_fac%10 #adds the right most digit 
         i_fac = i_fac//10 # removes the right most digit
-    return i_output #returns the parsed sum
+    return i_output 
 
 def main():
     i_input,i_output,i_fac = 1,1,1 
-    i_input = int(input()) # grabs the user input as integer
-    i_fac = numpy.math.factorial(i_input) # determine the factorial of the user input
-    i_output = get_parsed_sum(i_fac) # determine the parsed sum of the user input
-    print(i_output) # prints the parsed factorial sum
+    i_input = int(input()) 
+    i_fac = numpy.math.factorial(i_input) 
+    i_output = get_parsed_sum(i_fac)
+    print(i_output) 
     return 0
 
 main()
